@@ -1,4 +1,3 @@
-// 实例方法被覆盖，静态方法被隐藏
 class Super {
     static String greeting() {
         return "Hello";
@@ -25,3 +24,4 @@ class testStatic {
         System.out.println(s.greeting() + "," + s.name());
     }
 }
+// 实例方法被覆盖，静态方法被隐藏

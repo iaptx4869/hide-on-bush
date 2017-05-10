@@ -21,10 +21,9 @@ class B extends A {
 }
 
 public class testStatic2 {
-
     public static void main(String[] args) {
-        A ab = new B();
-        ab = new B();
+        A x = new B();
+        x = new B();
     }
 
 }

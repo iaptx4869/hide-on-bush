@@ -7,7 +7,7 @@ import java.util.Set;
  * @author Owner 
  * 
  */
-public class HashSetDemo {
+class HashSetDemo {
 
     public static void main(String[] args) {
         Set<String> set = new HashSet<String>();

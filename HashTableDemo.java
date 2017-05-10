@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class HashTableDemo {
+class HashTableDemo {
 
     public static void main(String args[]) {
         // Create a hash map

@@ -15,13 +15,10 @@ class RunnableDemo implements Runnable {
                 e.printStackTrace();
             }
         }
-
     }
-
 }
 
 class testRunnable {
-
     public static void main(String[] args) {
         new Thread(new RunnableDemo("C")).start();
         new Thread(new RunnableDemo("D")).start();

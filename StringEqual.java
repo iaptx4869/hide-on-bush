@@ -1,4 +1,4 @@
-class equalString {
+class StringEqual {
     public static void main(String[] args) {
         String s1 = "Programming";
         String s2 = new String("Programming");

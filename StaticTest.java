@@ -18,7 +18,7 @@ class Sub extends Super {
     }
 }
 
-class testStatic {
+class StaticTest {
     public static void main(String[] args) {
         Super s = new Sub();
         System.out.println(s.greeting() + "," + s.name());

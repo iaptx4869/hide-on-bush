@@ -1,6 +1,6 @@
 import java.util.Calendar;
 import java.time.LocalDateTime;;
-public class testDateTime {
+public class DateTimeTest {
     public static void main(String[] args) {
         Calendar cal = Calendar.getInstance();
         System.out.println(cal.get(Calendar.YEAR));

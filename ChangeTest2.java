@@ -3,7 +3,7 @@ class Person {
 
 }
 
-class testChange2 {
+class ChangeTest2 {
     public static void changeName(Person p) {
         p.name = "Yix";
     }

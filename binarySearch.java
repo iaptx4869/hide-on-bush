@@ -4,7 +4,7 @@
  * @author Administrator 
  * 
  */
-class binarySearch {
+class BinarySearch {
     public static void main(String[] args) {
         int[] src = new int[] { -1, 1, 3, 5, 7, 8, 9 };
         System.out.println(binarySearch(src, 3));

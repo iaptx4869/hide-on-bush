@@ -30,7 +30,7 @@ class RunnableDemo implements Runnable {
    }
 }
  
-public class testRunnable2 {
+public class RunnableTest2 {
  
    public static void main(String args[]) {
       RunnableDemo R1 = new RunnableDemo( "Thread-1");

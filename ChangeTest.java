@@ -1,4 +1,4 @@
-class testChange {
+class ChangeTest {
     static void changeValue(int x) {
         x = x * 2;
     }

@@ -19,7 +19,7 @@ class AlarmDoor extends Door implements Alarm {
     }
 }
 
-class testAlarmDoor{
+class AlarmDoor{
     public static void main(String[] args){
         AlarmDoor ad=new AlarmDoor();
         ad.open();

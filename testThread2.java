@@ -1,27 +1,41 @@
 class ThreadDemo extends Thread {
-    private String name;
+    private Thread t;
+    private String threadName;
 
-    public ThreadDemo(String name) {
-        this.name = name;
+    ThreadDemo(String name) {
+        threadName = name;
+        System.out.println("Creating " + threadName);
     }
 
     public void run() {
-        for (int i = 0; i < 5; i++) {
-            System.out.println(name + "运行  :  " + i);
-            try {
-                sleep((int) Math.random() * 10);
-            } catch (InterruptedException e) {
-                e.printStackTrace();
+        System.out.println("Running " + threadName);
+        try {
+            for (int i = 4; i > 0; i--) {
+                System.out.println("Thread: " + threadName + ", " + i);
+                // 让线程睡醒一会
+                Thread.sleep(50);
             }
+        } catch (InterruptedException e) {
+            System.out.println("Thread " + threadName + " interrupted.");
+        }
+        System.out.println("Thread " + threadName + " exiting.");
+    }
+
+    public void start() {
+        System.out.println("Starting " + threadName);
+        if (t == null) {
+            t = new Thread(this, threadName);
+            t.start();
         }
     }
 }
 
 class testThread2 {
-    public static void main(String[] args) {
-        ThreadDemo mTh1 = new ThreadDemo("A");
-        ThreadDemo mTh2 = new ThreadDemo("B");
-        mTh1.start();
-        mTh2.start();
+    public static void main(String args[]) {
+        ThreadDemo T1 = new ThreadDemo("Thread-1");
+        T1.start();
+
+        ThreadDemo T2 = new ThreadDemo("Thread-2");
+        T2.start();
     }
 }

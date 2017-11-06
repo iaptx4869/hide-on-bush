@@ -1,4 +1,6 @@
-import java.util.*;
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Map;
 class HashMapDemo {
     public static void main(String[] args) {
         Map<String, String> map = new HashMap<String, String>();

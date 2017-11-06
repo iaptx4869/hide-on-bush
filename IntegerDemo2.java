@@ -1,5 +1,3 @@
-import org.omg.PortableInterceptor.SYSTEM_EXCEPTION;
-
 class IntegerDemo2 {
     public static void main(String[] args) {
         int i = 128;

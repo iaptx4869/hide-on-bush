@@ -1,5 +1,5 @@
-import java.util.Calendar;
-import java.time.LocalDateTime;;
+import java.time.LocalDateTime;
+import java.util.Calendar;;
 public class DateTimeTest {
     public static void main(String[] args) {
         Calendar cal = Calendar.getInstance();

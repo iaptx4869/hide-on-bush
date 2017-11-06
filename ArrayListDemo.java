@@ -1,4 +1,6 @@
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
 class ArrayListDemo {
     public static void main(String[] args) {
         List<String> list = new ArrayList<String>();

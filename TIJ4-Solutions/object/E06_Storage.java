@@ -1,3 +1,4 @@
+//练习6：（2）编写一个程序，让它含有本章所定义的storage()方法的代码段，并调用之。
 public class E06_Storage {
     String s = "Hello, World!";
 

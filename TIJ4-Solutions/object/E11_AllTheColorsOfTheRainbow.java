@@ -1,3 +1,4 @@
+//练习11：（1）将AllTheColorsOfTheRainbow这个实例改写成一个程序，然后编译、运行。
 public class E11_AllTheColorsOfTheRainbow {
     int anIntegerRepresentingColors;
 

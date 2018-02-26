@@ -1,3 +1,4 @@
+//练习7：（1）将Incrementable的代码段改写成一个完整的可运行程序。
 class StaticTest {
     static int i = 47;
 }

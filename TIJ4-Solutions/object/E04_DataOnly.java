@@ -1,3 +1,4 @@
+//练习4：（1）讲DataOnly代码段改写成一个程序，然后编译、运行。
 public class E04_DataOnly {
     int i;
     double d;

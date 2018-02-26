@@ -1,3 +1,4 @@
+//练习8：（3）编写一个程序，展示无论你创建了某个特定类的多少个对象，这个类中的某个特定的static域只有一个实例。
 public class E08_StaticTest {
     static int i = 47;
 

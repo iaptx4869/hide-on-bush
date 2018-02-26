@@ -1,3 +1,4 @@
+//练习15：（1）使用练习2的程序，加入注释文档。用javadoc提取此注释文档，并产生一个HTML文件，然后通过Web浏览器查看结果。
 /** A first example from <i>sTIJ4</i>.
  * Demonstrates the basic class
  * structure and the creation of a

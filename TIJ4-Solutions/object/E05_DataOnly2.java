@@ -1,3 +1,4 @@
+//练习5：（1）修改前一个练习，将DataOnly中的数据在main()方法中赋值并打印出来。
 public class E05_DataOnly2 {
     public static void main(String[] args) {
         E04_DataOnly d = new E04_DataOnly();
